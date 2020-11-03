@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import UserApp from './pages/Users';
+import {users} from './services/user.service';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="users">
+        <ul>
+          
+        {
+          users.map(user => {
+            return (
+              <>
+                <li>{user.name}</li>
+                <li>{user.username}</li>
+                <li>{user.email}</li>
+                <li>{user.phone}</li>
+                <br></br>
+              </>
+            )
+          })
+        }
+        </ul>
+       
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;
