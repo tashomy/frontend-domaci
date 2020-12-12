@@ -2,66 +2,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('bootstrap/dist/css/bootstrap.min.css');
+@import url("http://kenwheeler.github.io/slick/slick/slick-theme.css");
 
 .background {
     background: url('../images/djeca.png') no-repeat center;
     height: 130vh;
     width: 100%;
     position: relative;
+    margin-top: -137px;
     
 }
 
-
-.logo-nav img{
-    height: 67px;
-    margin: 5px 60px;
-    float: left;
-    position: absolute;
-    top: 10px;
-    z-index: 3;
-    object-fit: contain;
+.logo-nav{
+    height: 80px;
+    margin-left: 50px;
+    margin-right: 80px;
 }
 
-.navbar ul {
-    position: absolute;
-    top: 20px;
-    left: 350px;
+.nav ul {
+    position: absolute !important;
+    top: 20px !important;
+    left: 350px !important;
 }
 
-.navbar ul li{
-    float: left;
-    list-style: none;
-    z-index: 5;
-    margin-right: 70px;
+.nav a{
+    position: relative !important;
     overflow: hidden;
-    position: relative;
-    height: 50px;
 }
 
-.navbar ul li a {
-    color: rgba(255, 255, 255, 0.438);
-    font-family: 'Mulish', sans-serif;
-    font-size: 20px;
-    
+.nav-transparent {
+    background-color: transparent !important;
 }
 
-.bottom-line {
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    bottom: -10px;
-    transition: ease 0.5s;
+.nav-colored {
+    background-color: #fff !important;
 }
 
-.navbar ul li:hover .bottom-line {
-    bottom: 0;
-    transition: ease 0.5s;
+.nav-link {
+    color: rgba(255, 255, 255, 0.438) !important;
+    font-family: 'Mulish', sans-serif !important;
+    font-size: 18px;
+    margin-left: 70px;
 }
 
 #pocetna {
-    color: #fff;
+    color: #fff !important;
 }
+
+.bottom-line {
+    position: absolute  !important;
+    width: 100%  !important;
+    height: 2px  !important;
+    background-color: #fff  !important;
+    bottom: -10px  !important;
+    transition: ease 0.5s  !important;
+}
+
+.nav a:hover .bottom-line {
+    bottom: 0 !important;
+    transition: ease 0.5s;
+}
+
 
 .showcase-container {
     position: absolute;
@@ -75,6 +77,7 @@
     margin: 70px 65px; 
     font-family: 'Playfair Display', serif;
     font-weight: 900;
+    margin-top: 140px;
 }
 
 .text {
@@ -226,7 +229,7 @@
 
 .bckg-line {
     background: url(../images/linija.svg);
-    width: 52px;
+    width: 42px;
     height: 13px;
     margin-left: 65px;
     
@@ -265,7 +268,13 @@
     padding: 0px;
     margin-left: 130px;
     cursor: pointer;
+    transition: ease 0.5s;
    
+}
+
+.more:hover{
+    border-bottom: 1px solid #06aaca;
+    transition: ease 0.5s;
 }
 
 .arrow {
@@ -312,4 +321,150 @@
 
 .bottom {
     height: 100px;
+}
+
+.bckgColor{
+    position: absolute;
+    height: 450px;
+    width: 100%;
+    top: 1900px;
+    left: 20px;
+    background-color: beige;
+}
+
+.input {
+    margin-left: 90px;
+    border: none;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    color: rgba(139, 146, 171, 50%);
+    outline: none;
+    border-bottom: 1px solid rgba(139, 146, 171, 50%);
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+#textarea{
+    display: block;
+    width: 150px;
+}
+
+
+#textarea::placeholder {
+    text-align: left;
+    transform: translateY(80px);
+}
+
+.button {
+    margin-left: 90px;
+    background-color: #06aaca;
+    border: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 25px;
+    font-size: 17px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 105px;
+    padding: 15px;
+    width: 150px;
+    font-weight: 900;
+}
+
+.footer {
+    background: url('../images/footer.svg');
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footer-items {
+    margin: auto;
+    width: 200px;
+    padding: 25px 0;
+}
+
+footer-items img {
+    display: block;
+}
+
+.footer-items {
+    color: #fff !important;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    z-index: 4;
+}
+
+#footer-logo {
+    width: 150px;
+    align-items: center;
+}
+
+.fb {
+    background: url(../images/fb.svg);
+    width: 38px;
+    height: 38px;
+    z-index: 7;
+    margin-bottom: -15px;
+    padding: 0;
+    margin-left: 45px;
+}
+
+.insta {
+    background: url(../images/insta.svg);
+    width: 38px;
+    height: 38px;
+    z-index: 7;
+    margin-bottom: -35px;
+    margin-left: 110px;
+    margin-top: -38px;
+    padding: 0;
+}
+
+/* .djeca-footer{
+    display: flex !important;
+    justify-content: space-between;
+    position: relative;
+    align-content: space-between;
+} */
+
+.djevojcica {
+    background: url(../images/djevojcica.svg) no-repeat; 
+    /* width: 600px;
+    height: 450px;  */
+    position: absolute;
+    left: -40px;
+    top: -28px;
+    z-index: 5;
+    width: 520px;
+    height: 328px;
+    /* align-self: flex-start; */
+    float: left;
+} 
+
+.djecak {
+    background: url(../images/slika2.svg) no-repeat;
+    /* width: 600px;
+    height: 450px; */
+    margin-top: -298px;
+    /* margin-left: 1030px; */
+    z-index: 5;
+    width: 330px;
+    height: 328px;
+    /* align-self: flex-end; */
+    float: right;
+}
+
+.clr {
+    clear: both;
 }
