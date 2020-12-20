@@ -1,0 +1,107 @@
+.margin{
+    margin-top: 400px;
+    margin-bottom: 0px;
+}
+
+.ko-smo {
+    
+    position: relative;
+}
+
+.main-heading {
+    font-size: 52px;
+    line-height: 27px;
+    font-family: 'Playfair Display', sans-serif;
+    color: #2e3038;
+    margin-top: 98px;
+    margin-bottom: 45px;
+    margin-left: 65px;
+}
+
+.bckg-line {
+    background: url(../../images/linija.svg);
+    width: 42px;
+    height: 13px;
+    margin-left: 65px;
+}
+
+.bckg-color {
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.04);
+    height: 400px;
+    width: 460px;
+    position: absolute;
+    top: 120px;
+    left: 150px;
+}
+
+.main-text {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8b92ab;
+    margin-left: 130px;
+    width: 450px;
+}
+
+.more {
+    margin-top: 50px;
+    color: #06aaca;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 0px;
+    margin-left: 130px;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.more:hover {
+    border-bottom: 1px solid #06aaca;
+    transition: ease 0.5s;
+}
+
+.arrow {
+    margin-left: 5px;
+    transition: ease 0.5s;
+}
+
+.more:hover .arrow {
+    margin-left: 20px;
+    transition: ease 0.5s;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.around {
+    width: 650px;
+    height: 700px;
+    margin-top: 60px;
+    // margin-right: 65px;
+    position: relative;
+}
+
+.circle-bckg {
+    background: #06aaca;
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+    z-index: -2;
+}
+
+.circle-img {
+    width: 550px;
+    z-index: 1;
+    position: absolute;
+    top: 130px;
+    left: 80px;
+}

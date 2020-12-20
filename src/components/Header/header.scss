@@ -1,0 +1,98 @@
+.navbar {
+    background-color: transparent !important;
+}
+
+
+
+.navbar-brand #logo-navbar{
+    background: url('../../images/logo.png') center no-repeat !important;
+    height: 108px;
+    width: 110px;
+    margin-left: 65px;
+    z-index: 5;
+    background-size: contain !important;
+
+}
+
+.nav-link {
+    font-family: 'Mulish', sans-serif;
+  
+  }
+
+  #pocetna {
+    color: #fff !important;
+}
+
+.navbar-nav a {
+    margin-right: 50px;
+    font-size: 18px;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.navbar.active {
+    background-color: #fff !important;
+}
+
+.navbar-brand.active #logo-navbar{
+    background: url('../../images/logo-tamni.png') center no-repeat !important;
+    height: 108px;
+    width: 110px;
+    margin-left: 65px;
+    z-index: 5;
+    background-size: contain !important;
+}
+
+.navbar-nav.active a{
+    color: #000 !important;
+}
+
+.navbar-toggler-icon-dark {
+    background-color: #000 !important;
+}
+
+.bottom-line {
+    position: absolute  !important;
+    width: 100%  !important;
+    height: 2px  !important;
+    background-color: #fff  !important;
+    bottom: -10px  !important;
+    transition: ease 0.5s  !important;
+}
+
+.bottom-line.active{
+    position: absolute  !important;
+    width: 100%  !important;
+    height: 2px  !important;
+    background-color: #000  !important;
+    bottom: -10px  !important;
+    transition: ease 0.5s  !important;
+}
+
+.navbar-nav a:hover .bottom-line {
+    bottom: 0 !important;
+    transition: ease 0.5s;
+}
+
+@media only screen and (max-width: 992px){
+    .navbar-brand #logo-navbar{
+        background: url('../../images/logo-tamni.png') center no-repeat !important;
+        height: 108px;
+        width: 110px;
+        margin-left: 65px;
+        z-index: 5;
+        background-size: contain !important;
+    }
+    .bottom-line{
+        position: absolute  !important;
+        width: 100%  !important;
+        height: 2px  !important;
+        background-color: #000  !important;
+        bottom: -10px  !important;
+        transition: ease 0.5s  !important;
+    }
+    .navbar-toggler{
+        background-color: #000 !important;
+    }
+    
+}

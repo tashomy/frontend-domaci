@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import './components/Header/header.scss';
+@import './components/Showcase/showcase.scss';
+@import './components/Progress/progress.scss';
+@import './components/KoSmo/ko-smo.scss';
+@import './components/Kontakt/kontakt.scss';
+@import './components/Footer/footer.scss';
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.oko-pozadine {
+  position: relative;
+  z-index: -7;
+}
+
+.background {
+  background: url('./images/djeca.png') no-repeat center !important;
+  background-size: cover;
+  height: 1080px;
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+  top: 0px;
+}
+
+@media only screen and (max-width: 992px){
+  .background{
+    height: 1300px;
+  }
+}
+
+

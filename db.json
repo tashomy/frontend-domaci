@@ -1,0 +1,68 @@
+{
+  "vijesti": [
+    {
+      "id": "1",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing 1",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.",
+      "img": "./images/slika1.svg"
+    },
+    {
+      "id": "2",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing 2",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.",
+      "img": "./images/slika2.svg"
+    },
+    {
+      "id": "3",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing 3",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.",
+      "img": "./images/slika1.svg"
+    },
+    {
+      "id": "4",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing 4",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.",
+      "img": "./images/slika2.svg"
+    }
+  ],
+  "poruke": [
+    {
+      "name": "Natasa",
+      "email": "miaj@gmail.com",
+      "message": "poruka",
+      "id": 1
+    },
+    {
+      "data": {
+        "name": "Svetlana Mijatović",
+        "email": "sale@g.com",
+        "message": "1452687"
+      },
+      "id": 2
+    },
+    {
+      "data": {
+        "name": "Svetlana Mijatović",
+        "email": "ceca@gmail.com",
+        "message": "naja voli cecu"
+      },
+      "id": 3
+    },
+    {
+      "data": {
+        "name": "Naja",
+        "email": "n@gmail.com",
+        "message": "Da li je moguce da napokon radiii"
+      },
+      "id": 4
+    },
+    {
+      "data": {
+        "name": "Todorovic Vuk",
+        "email": "todor@gmail.com",
+        "message": "Vuk je Najin brat"
+      },
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+.progress-heading {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    text-align: left;
+}
+
+.line {
+    height: 160px;
+    border-right: 2px solid #fff;
+}
+
+.progress-num {
+    font-size: 130px;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #06aaca;
+    position: absolute;
+    top: 1030px;
+    left: 62px;
+    right: 62px;
+    height: 300px;
+    width: auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.wrapper {
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .card {
+    width: calc(33% - 20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: #06aaca;
+    border: none;
+}
+
+.wrapper .card .circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.card .circle .box canvas,
+.card .circle .box span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.card .circle .box canvas {
+    height: 100%;
+    width: 100%;
+    background: #06aaca;
+    transform: translate(-50%, -50%) scale(0.8);
+    border-radius: 50%;
+}
+
+/* .card .circle:hover .box {
+    transform: translate(-50%, -50%) scale(0.91);
+} */
+
+.card .circle .box span {
+    font-size: 150px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}

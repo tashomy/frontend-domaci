@@ -1,0 +1,94 @@
+.footer {
+    margin-top: 100px;
+    background: url('../../images/footer.svg');
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-items {
+    margin: auto;
+    width: 200px;
+    padding: 25px 0;
+}
+
+footer-items img {
+    display: block;
+}
+
+.footer-items {
+    color: #fff !important;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    z-index: 4;
+}
+
+#footer-logo {
+    width: 150px;
+    align-items: center;
+}
+
+.fb {
+    background: url(../../images/fb.svg);
+    width: 38px;
+    height: 38px;
+    z-index: 7;
+    margin-bottom: -15px;
+    padding: 0;
+    margin-left: 45px;
+}
+
+.insta {
+    background: url(../../images/insta.svg);
+    width: 38px;
+    height: 38px;
+    z-index: 7;
+    margin-bottom: -35px;
+    margin-left: 110px;
+    margin-top: -38px;
+    padding: 0;
+}
+
+
+/* .djeca-footer{
+    display: flex !important;
+    justify-content: space-between;
+    position: relative;
+    align-content: space-between;
+} */
+
+.djevojcica {
+    background: url(../../images/djevojcica.svg) no-repeat;
+    /* width: 600px;
+    height: 450px;  */
+    position: absolute;
+    left: -40px;
+    top: -28px;
+    z-index: 5;
+    width: 520px;
+    height: 328px;
+    /* align-self: flex-start; */
+    float: left;
+}
+
+.djecak {
+    background: url(../../images/slika2.svg) no-repeat;
+    /* width: 600px;
+    height: 450px; */
+    margin-top: -298px;
+    /* margin-left: 1030px; */
+    z-index: 5;
+    width: 330px;
+    height: 328px;
+    /* align-self: flex-end; */
+    float: right;
+}
